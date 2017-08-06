@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C906EB541F33165D00ABBEB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C906EB531F33165D00ABBEB0 /* main.m */; };
+		C906EB571F33165D00ABBEB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C906EB561F33165D00ABBEB0 /* AppDelegate.m */; };
+		C906EB5A1F33165D00ABBEB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C906EB591F33165D00ABBEB0 /* ViewController.m */; };
+		C906EB5D1F33165D00ABBEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C906EB5B1F33165D00ABBEB0 /* Main.storyboard */; };
+		C906EB5F1F33165D00ABBEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C906EB5E1F33165D00ABBEB0 /* Assets.xcassets */; };
+		C906EB621F33165D00ABBEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C906EB601F33165D00ABBEB0 /* LaunchScreen.storyboard */; };
+		C906EB6D1F33165D00ABBEB0 /* DolphinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C906EB6C1F33165D00ABBEB0 /* DolphinDemoTests.m */; };
+		C906EB781F33165D00ABBEB0 /* DolphinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C906EB771F33165D00ABBEB0 /* DolphinDemoUITests.m */; };
+		C906EB871F33169700ABBEB0 /* SleepPlanDisCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C906EB861F33169700ABBEB0 /* SleepPlanDisCoverView.m */; };
+		D2D7C94F9268F26A51FA16DA /* libPods-DolphinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45078C58D085975D1CC470F0 /* libPods-DolphinDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C906EB691F33165D00ABBEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C906EB471F33165C00ABBEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C906EB4E1F33165D00ABBEB0;
+			remoteInfo = DolphinDemo;
+		};
+		C906EB741F33165D00ABBEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C906EB471F33165C00ABBEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C906EB4E1F33165D00ABBEB0;
+			remoteInfo = DolphinDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45078C58D085975D1CC470F0 /* libPods-DolphinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolphinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E0B6133F7268DD20C56FDE /* Pods-DolphinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolphinDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DolphinDemo/Pods-DolphinDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C906EB4F1F33165D00ABBEB0 /* DolphinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolphinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C906EB531F33165D00ABBEB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C906EB551F33165D00ABBEB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C906EB561F33165D00ABBEB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C906EB581F33165D00ABBEB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C906EB591F33165D00ABBEB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C906EB5C1F33165D00ABBEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C906EB5E1F33165D00ABBEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C906EB611F33165D00ABBEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C906EB631F33165D00ABBEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C906EB681F33165D00ABBEB0 /* DolphinDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolphinDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C906EB6C1F33165D00ABBEB0 /* DolphinDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DolphinDemoTests.m; sourceTree = "<group>"; };
+		C906EB6E1F33165D00ABBEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C906EB731F33165D00ABBEB0 /* DolphinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolphinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C906EB771F33165D00ABBEB0 /* DolphinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DolphinDemoUITests.m; sourceTree = "<group>"; };
+		C906EB791F33165D00ABBEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C906EB851F33169700ABBEB0 /* SleepPlanDisCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepPlanDisCoverView.h; sourceTree = "<group>"; };
+		C906EB861F33169700ABBEB0 /* SleepPlanDisCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepPlanDisCoverView.m; sourceTree = "<group>"; };
+		DF97D8B99D119C947959F56A /* Pods-DolphinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolphinDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DolphinDemo/Pods-DolphinDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C906EB4C1F33165D00ABBEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D7C94F9268F26A51FA16DA /* libPods-DolphinDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906EB651F33165D00ABBEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906EB701F33165D00ABBEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B69C6B4B334A508E715719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45078C58D085975D1CC470F0 /* libPods-DolphinDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C906EB461F33165C00ABBEB0 = {
+			isa = PBXGroup;
+			children = (
+				C906EB511F33165D00ABBEB0 /* DolphinDemo */,
+				C906EB6B1F33165D00ABBEB0 /* DolphinDemoTests */,
+				C906EB761F33165D00ABBEB0 /* DolphinDemoUITests */,
+				C906EB501F33165D00ABBEB0 /* Products */,
+				E4FEE8787158D6E727A98E6F /* Pods */,
+				64B69C6B4B334A508E715719 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C906EB501F33165D00ABBEB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C906EB4F1F33165D00ABBEB0 /* DolphinDemo.app */,
+				C906EB681F33165D00ABBEB0 /* DolphinDemoTests.xctest */,
+				C906EB731F33165D00ABBEB0 /* DolphinDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C906EB511F33165D00ABBEB0 /* DolphinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C906EB551F33165D00ABBEB0 /* AppDelegate.h */,
+				C906EB561F33165D00ABBEB0 /* AppDelegate.m */,
+				C906EB581F33165D00ABBEB0 /* ViewController.h */,
+				C906EB591F33165D00ABBEB0 /* ViewController.m */,
+				C906EB851F33169700ABBEB0 /* SleepPlanDisCoverView.h */,
+				C906EB861F33169700ABBEB0 /* SleepPlanDisCoverView.m */,
+				C906EB5B1F33165D00ABBEB0 /* Main.storyboard */,
+				C906EB5E1F33165D00ABBEB0 /* Assets.xcassets */,
+				C906EB601F33165D00ABBEB0 /* LaunchScreen.storyboard */,
+				C906EB631F33165D00ABBEB0 /* Info.plist */,
+				C906EB521F33165D00ABBEB0 /* Supporting Files */,
+			);
+			path = DolphinDemo;
+			sourceTree = "<group>";
+		};
+		C906EB521F33165D00ABBEB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C906EB531F33165D00ABBEB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C906EB6B1F33165D00ABBEB0 /* DolphinDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C906EB6C1F33165D00ABBEB0 /* DolphinDemoTests.m */,
+				C906EB6E1F33165D00ABBEB0 /* Info.plist */,
+			);
+			path = DolphinDemoTests;
+			sourceTree = "<group>";
+		};
+		C906EB761F33165D00ABBEB0 /* DolphinDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C906EB771F33165D00ABBEB0 /* DolphinDemoUITests.m */,
+				C906EB791F33165D00ABBEB0 /* Info.plist */,
+			);
+			path = DolphinDemoUITests;
+			sourceTree = "<group>";
+		};
+		E4FEE8787158D6E727A98E6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5E0B6133F7268DD20C56FDE /* Pods-DolphinDemo.debug.xcconfig */,
+				DF97D8B99D119C947959F56A /* Pods-DolphinDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C906EB4E1F33165D00ABBEB0 /* DolphinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C906EB7C1F33165D00ABBEB0 /* Build configuration list for PBXNativeTarget "DolphinDemo" */;
+			buildPhases = (
+				C04D1B0D625A6516ED6AD924 /* [CP] Check Pods Manifest.lock */,
+				C906EB4B1F33165D00ABBEB0 /* Sources */,
+				C906EB4C1F33165D00ABBEB0 /* Frameworks */,
+				C906EB4D1F33165D00ABBEB0 /* Resources */,
+				D4FBF9E6E9BA6A7B82ABB686 /* [CP] Embed Pods Frameworks */,
+				999DF42B853E9498B58EF1A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolphinDemo;
+			productName = DolphinDemo;
+			productReference = C906EB4F1F33165D00ABBEB0 /* DolphinDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C906EB671F33165D00ABBEB0 /* DolphinDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C906EB7F1F33165D00ABBEB0 /* Build configuration list for PBXNativeTarget "DolphinDemoTests" */;
+			buildPhases = (
+				C906EB641F33165D00ABBEB0 /* Sources */,
+				C906EB651F33165D00ABBEB0 /* Frameworks */,
+				C906EB661F33165D00ABBEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C906EB6A1F33165D00ABBEB0 /* PBXTargetDependency */,
+			);
+			name = DolphinDemoTests;
+			productName = DolphinDemoTests;
+			productReference = C906EB681F33165D00ABBEB0 /* DolphinDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C906EB721F33165D00ABBEB0 /* DolphinDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C906EB821F33165D00ABBEB0 /* Build configuration list for PBXNativeTarget "DolphinDemoUITests" */;
+			buildPhases = (
+				C906EB6F1F33165D00ABBEB0 /* Sources */,
+				C906EB701F33165D00ABBEB0 /* Frameworks */,
+				C906EB711F33165D00ABBEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C906EB751F33165D00ABBEB0 /* PBXTargetDependency */,
+			);
+			name = DolphinDemoUITests;
+			productName = DolphinDemoUITests;
+			productReference = C906EB731F33165D00ABBEB0 /* DolphinDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C906EB471F33165C00ABBEB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = het;
+				TargetAttributes = {
+					C906EB4E1F33165D00ABBEB0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = WU2WFZ2B66;
+						ProvisioningStyle = Manual;
+					};
+					C906EB671F33165D00ABBEB0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C906EB4E1F33165D00ABBEB0;
+					};
+					C906EB721F33165D00ABBEB0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C906EB4E1F33165D00ABBEB0;
+					};
+				};
+			};
+			buildConfigurationList = C906EB4A1F33165C00ABBEB0 /* Build configuration list for PBXProject "DolphinDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C906EB461F33165C00ABBEB0;
+			productRefGroup = C906EB501F33165D00ABBEB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C906EB4E1F33165D00ABBEB0 /* DolphinDemo */,
+				C906EB671F33165D00ABBEB0 /* DolphinDemoTests */,
+				C906EB721F33165D00ABBEB0 /* DolphinDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C906EB4D1F33165D00ABBEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906EB621F33165D00ABBEB0 /* LaunchScreen.storyboard in Resources */,
+				C906EB5F1F33165D00ABBEB0 /* Assets.xcassets in Resources */,
+				C906EB5D1F33165D00ABBEB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906EB661F33165D00ABBEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906EB711F33165D00ABBEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		999DF42B853E9498B58EF1A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DolphinDemo/Pods-DolphinDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04D1B0D625A6516ED6AD924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FBF9E6E9BA6A7B82ABB686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DolphinDemo/Pods-DolphinDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C906EB4B1F33165D00ABBEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906EB871F33169700ABBEB0 /* SleepPlanDisCoverView.m in Sources */,
+				C906EB5A1F33165D00ABBEB0 /* ViewController.m in Sources */,
+				C906EB571F33165D00ABBEB0 /* AppDelegate.m in Sources */,
+				C906EB541F33165D00ABBEB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906EB641F33165D00ABBEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906EB6D1F33165D00ABBEB0 /* DolphinDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906EB6F1F33165D00ABBEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906EB781F33165D00ABBEB0 /* DolphinDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C906EB6A1F33165D00ABBEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C906EB4E1F33165D00ABBEB0 /* DolphinDemo */;
+			targetProxy = C906EB691F33165D00ABBEB0 /* PBXContainerItemProxy */;
+		};
+		C906EB751F33165D00ABBEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C906EB4E1F33165D00ABBEB0 /* DolphinDemo */;
+			targetProxy = C906EB741F33165D00ABBEB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C906EB5B1F33165D00ABBEB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C906EB5C1F33165D00ABBEB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C906EB601F33165D00ABBEB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C906EB611F33165D00ABBEB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C906EB7A1F33165D00ABBEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C906EB7B1F33165D00ABBEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C906EB7D1F33165D00ABBEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E0B6133F7268DD20C56FDE /* Pods-DolphinDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				INFOPLIST_FILE = DolphinDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = het.DolphinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "296a8a0c-6f8e-4aa6-abae-cd21fe573fff";
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+			};
+			name = Debug;
+		};
+		C906EB7E1F33165D00ABBEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF97D8B99D119C947959F56A /* Pods-DolphinDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				INFOPLIST_FILE = DolphinDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = het.DolphinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "296a8a0c-6f8e-4aa6-abae-cd21fe573fff";
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+			};
+			name = Release;
+		};
+		C906EB801F33165D00ABBEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DolphinDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = het.DolphinDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinDemo.app/DolphinDemo";
+			};
+			name = Debug;
+		};
+		C906EB811F33165D00ABBEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DolphinDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = het.DolphinDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinDemo.app/DolphinDemo";
+			};
+			name = Release;
+		};
+		C906EB831F33165D00ABBEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DolphinDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = het.DolphinDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DolphinDemo;
+			};
+			name = Debug;
+		};
+		C906EB841F33165D00ABBEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DolphinDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = het.DolphinDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DolphinDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C906EB4A1F33165C00ABBEB0 /* Build configuration list for PBXProject "DolphinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C906EB7A1F33165D00ABBEB0 /* Debug */,
+				C906EB7B1F33165D00ABBEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C906EB7C1F33165D00ABBEB0 /* Build configuration list for PBXNativeTarget "DolphinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C906EB7D1F33165D00ABBEB0 /* Debug */,
+				C906EB7E1F33165D00ABBEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C906EB7F1F33165D00ABBEB0 /* Build configuration list for PBXNativeTarget "DolphinDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C906EB801F33165D00ABBEB0 /* Debug */,
+				C906EB811F33165D00ABBEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C906EB821F33165D00ABBEB0 /* Build configuration list for PBXNativeTarget "DolphinDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C906EB831F33165D00ABBEB0 /* Debug */,
+				C906EB841F33165D00ABBEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C906EB471F33165C00ABBEB0 /* Project object */;
+}
